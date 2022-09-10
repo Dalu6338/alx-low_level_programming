@@ -2,9 +2,9 @@
 
 /**
  *
- * main - Prints the alphabets in lowercase, and then in uppercase
+ * main - Prints the alphabets in lowercase, and then in uppercase.
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
