@@ -10,9 +10,9 @@ void print_most_numbers(void)
 {
 	int n;
 
-	for (n = 36; n < 46; n++)
+	for (n = 48; n < 58; n++)
 	{
-		if ((n == 38) || (n == 40))
+		if ((n == 50) || (n == 52))
 		{
 			continue;
 		}
