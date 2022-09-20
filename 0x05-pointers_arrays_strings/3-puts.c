@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,10 +6,15 @@
  * @str: input string
  * Return: no return
  */
+
 void _puts(char *str)
 {
-	while (*str)
-		_puts(*str++);
+	int i = 0;
 
-	_putchar('\n');
+	while (*(str + i) != '\0')
+	{
+		putchar(*(str + i));
+		i++;
+	}
+	putchar(10);
 }
